@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+      gap: 20px;
+      border: 1px solid red;
+  }
+  .box>div>img{
+      width: 100%;
+  }
+  .box>div{
+      border: 1px solid green;
+  }

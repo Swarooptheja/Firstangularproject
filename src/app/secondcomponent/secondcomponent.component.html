@@ -1,0 +1,20 @@
+<p>secondcomponent works!</p>
+<h1>{{title}}</h1>
+<div *ngFor="let data of datas">
+   <h4>{{data.name}}</h4>
+</div>
+<div *ngIf="toggle">
+  this is true
+</div>
+<div *ngIf="!toggle"> 
+this is false
+</div>
+
+<div>
+    <button (click)="Toggle()">Toggle</button>
+</div>
+<button (click)="handleclick()">Click me</button>
+
+<h1>{{count}}</h1>
+
+<button (click)="countbutton()">countbutton</button>
